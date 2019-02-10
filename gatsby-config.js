@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'victordg.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -13,6 +13,14 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [
+          require(`postcss-preset-env`)({ stage: 0 })
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

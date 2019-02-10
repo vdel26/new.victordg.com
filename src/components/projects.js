@@ -34,14 +34,14 @@ export default class Projects extends Component {
             <h1 className={styles.projectTitle}>Tinychart</h1>
             <p className={styles.projectBody}>Interactive playground to create nice-looking charts very easily. It is a
     pure client-side application built in React.js. View the <a href="https://github.com/vdel26/tinychart" target="_blank">source</a> or give
-    it a <a href="http://tinychart.co/" target="_blank">try</a>.</p>
+    it a <a href="http://tinychart.co/" target="_blank">try</a>. It had a steady flow of hundreds of daily users for almost 3 years, and made it to #1 of Product Hunt.</p>
           </div>
 
           <div className={styles.project}>
             <h1 className={styles.projectTitle}>Requestdiff</h1>
             <p className={styles.projectBody}>A troubleshooting utility to compare in a visual way the differences in HTTP
     headers and the message body between two API requests. View the <a href="https://github.com/vdel26/requestdiff" target="_blank">source</a> or visit
-    the <a href="http://requestdiff.com/" target="_blank">site</a>.</p>
+    the <a href="http://requestdiff.com/" target="_blank">site</a>. Featured at the top of Hacker News and received tens of thousands of visits.</p>
           </div>
 
           <div className={styles.project}>
@@ -53,19 +53,14 @@ export default class Projects extends Component {
 
           <div className={styles.project}>
             <h1 className={styles.projectTitle}>Play</h1>
-            <p className={styles.projectBody}>A Chrome extension to control audio or video playing in background tabs. You
-    will no longer need to search among all your open tabs every time you have to
-    pause what you are listening to. You can get it <a href="https://github.com/vdel26/play"
-    target="_blank">here</a> or check the source code <a href="https://github.com/vdel26/play"
-    target="_blank">here</a>.</p>
+            <p className={styles.projectBody}>A Chrome extension to control audio or video playing in background tabs. You will no longer need to search among all your open tabs every time you have to
+   pause what you are listening to. You can get it <a href="https://github.com/vdel26/play" target="_blank">here</a> or check the source code <a href="https://github.com/vdel26/play" target="_blank">here</a>. Released two years before Chrome and Safari included this same feature natively.</p>
           </div>
 
           <div className={styles.project}>
             <h1 className={styles.projectTitle}>Gifted</h1>
             <p className={styles.projectBody}>A tiny Mac app to generate looping GIFs from videos. Just drag&drop and it
-    is ready to go. Also my first stint at Objective-C development. View the source
-    <a href="https://github.com/vdel26/gifted" target="_blank">here</a>
-    or get it from the Mac app store.</p>
+    is ready to go. Also my first stint at Objective-C development. View the source <a href="https://github.com/vdel26/gifted" target="_blank">here</a> or get it from the Mac app store.</p>
           </div>
 
         </div>

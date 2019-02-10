@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import favicon from '../images/favicon.ico';
 
 import './layout.css'
 
@@ -24,6 +25,9 @@ const Layout = ({ children }) => (
             { name: 'description', content: 'Victor Delgado' },
             { name: 'keywords', content: 'user experience, product strategy, product management, barcelona, design' },
             { name: 'author', content: 'Victor Delgado' }
+          ]}
+          link={[
+            { rel: 'shortcut icon', href: `${favicon}` }
           ]}
         >
           <html lang="en" />
